@@ -14,7 +14,7 @@ import psycopg2
 from psycopg2.extras import DictCursor
 
 DB_PATH = Path(__file__).resolve().parent / "neurocity.db"
-DATABASE_URL = os.environ.get("DATABASE_URL")
+DATABASE_URL = "postgresql://postgres:Kb6j?@@*sPLrdZz@db.tbgdkphbqttxxhnepele.supabase.co:5432/postgres"
 
 def get_connection():
     """Return a database connection and a boolean indicating if it's Postgres."""

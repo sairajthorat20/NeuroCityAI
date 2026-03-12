@@ -1,0 +1,12 @@
+{
+  "Heavy Rain|||Drain Overload": 1.0,
+  "Heavy Rain|||Road Flooding": 1.0,
+  "Drain Overload|||Flooding": 0.95,
+  "Flooding|||Traffic Congestion": 0.3553,
+  "Road Flooding|||Traffic Congestion": 0.3375,
+  "Traffic Congestion|||Emergency Vehicle Delay": 0.0002,
+  "Power Grid Failure|||Traffic Signal Failure": 0.3276,
+  "Traffic Signal Failure|||Traffic Congestion": 0.2978,
+  "Heatwave|||Power Grid Failure": 0.2138,
+  "Flooding|||Power Grid Failure": 0.1942
+}

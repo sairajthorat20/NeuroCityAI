@@ -1,0 +1,57 @@
+{
+  "models": {
+    "congestion": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "label": "congestion_label"
+    },
+    "flood": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "label": "flood_risk_label"
+    },
+    "power_outage": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "label": "power_outage_label"
+    },
+    "disaster_sev": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "label": "high_disaster_year"
+    }
+  },
+  "features": [
+    "rainfall_intensity",
+    "flow_norm",
+    "occupancy",
+    "speed_norm",
+    "temperature_avg",
+    "humidity_avg",
+    "wind_avg",
+    "soil_moist_avg",
+    "cloud_avg",
+    "disaster_context",
+    "is_peak_hour",
+    "is_weekend",
+    "month"
+  ],
+  "training_rows": 14592,
+  "data_sources": {
+    "traffic": {
+      "rows": 14592,
+      "junctions": 4,
+      "years": "2015-2017"
+    },
+    "weather": {
+      "rows": 91325,
+      "location": "21.97N 78.98E (MP, India)",
+      "years": "2000-2009"
+    },
+    "emdat": {
+      "rows": 795,
+      "country": "India",
+      "years": "2000-2024"
+    }
+  }
+}
